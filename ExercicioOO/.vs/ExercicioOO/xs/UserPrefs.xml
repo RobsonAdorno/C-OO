@@ -1,11 +1,9 @@
 ﻿<Properties StartupConfiguration="{9663907D-9DDF-4C4C-9AC3-1F2BFF41C1C3}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="ExercicioOO/DAL/ProdutoDAL.cs">
     <Files>
-      <File FileName="ExercicioOO/View/Program.cs" Line="135" Column="43" />
-      <File FileName="ExercicioOO/Beans/ValidateCPF.cs" Line="6" Column="40" />
-      <File FileName="ExercicioOO/DAL/VendedorDAL.cs" Line="15" Column="52" />
-      <File FileName="ExercicioOO/Model/Produto.cs" Line="6" Column="41" />
-      <File FileName="ExercicioOO/DAL/ProdutoDAL.cs" Line="10" Column="17" />
+      <File FileName="ExercicioOO/View/Program.cs" Line="136" Column="55" />
+      <File FileName="ExercicioOO/DAL/ProdutoDAL.cs" Line="12" Column="44" />
+      <File FileName="ExercicioOO/DAL/ClienteDAO.cs" Line="22" Column="44" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

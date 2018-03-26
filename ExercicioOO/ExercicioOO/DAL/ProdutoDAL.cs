@@ -19,7 +19,13 @@ namespace ExercicioOO.DAL
                 }
 
             }
+
+            produtos.Add(p);
             return true;
+        }
+
+        public static List<Produto> TrazerProduto(){
+            return produtos;
         }
     }
 }

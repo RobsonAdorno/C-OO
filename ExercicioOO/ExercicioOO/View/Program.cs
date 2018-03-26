@@ -133,6 +133,21 @@ namespace ExercicioOO
                         p.preco = double.Parse(Console.ReadLine());
                         Console.WriteLine("Digite a quantidade do Produto!");
                         p.quantidade = int.Parse(Console.ReadLine());
+                        if (ProdutoDAL.CadastrarProduto(p)){
+                            Console.WriteLine("Cadastro feito com sucesso");
+                        }else{
+                            Console.WriteLine("Erro, nome ja incluso na lista");
+                        }
+                        break;
+
+                    case "6":
+
+                        foreach (Produto produc in ProdutoDAL.TrazerProduto())
+                        {
+                            Console.WriteLine("Nomes dos Produtos: " + produc.nome);
+                            Console.WriteLine("Preco dos Produtos: " + produc.preco);
+                            Console.WriteLine("Quantidade dos Produtos: " + produc.quantidade);
+                        }
 
 
                         break;
