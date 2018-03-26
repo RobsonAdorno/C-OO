@@ -11,6 +11,8 @@ namespace ExercicioOO
         {
 
             Cliente c;
+            Vendedor v;
+            Produto p;
             string op;
               do
             {
@@ -47,16 +49,21 @@ namespace ExercicioOO
                         Console.WriteLine("Digite o nome do Cliente");
                         c.nome = Console.ReadLine();
                         Console.WriteLine("Digite o CPF do Cliente");
+
                         c.cpf = Console.ReadLine();
                         if (ValidateCPF.ValidandoCPF(c.cpf) == false){
                             Console.WriteLine("CPF INVÁLIDO");
-                            break;
-                        } 
-                        if(ClienteDAO.CadastrarCliente(c) == false){
-                            Console.WriteLine("Não foi possível efetuar o cadastro, CPF já existente!");
+                            Console.WriteLine("Pressione algum botao para voltar ao menu");
+                            Console.ReadKey();
                             break;
                         }
-                        Console.WriteLine("Cadastro Efetuado com sucesso!!");
+                        if (ClienteDAO.CadastrarCliente(c)){
+                            Console.WriteLine("Cadastro Efetuado com sucesso");
+                        }else{
+                            Console.WriteLine("CPF Duplicado, voltando ao menu principal...");
+                            break;
+                        }
+                       
                         Console.WriteLine("Pressione algum botao para voltar ao menu");
                         Console.ReadKey();
                         break;
@@ -73,8 +80,59 @@ namespace ExercicioOO
                         break;
 
                     case "3":
+                        v = new Vendedor();
+                        Console.WriteLine("Você selecionou a opção Cadastrar Vendedor");
+                        Console.WriteLine("Digite o nome do Vendedor");
+                        v.nome = Console.ReadLine();
+                        Console.WriteLine("Digite o CPF do Vendedor");
+                        v.cpf = Console.ReadLine();
+
+                        if (ValidateCPF.ValidandoCPF(v.cpf) == false){
+                            Console.WriteLine("CPF INVÁLIDO!");
+                            Console.WriteLine("Pressione algum botao para voltar ao menu");
+                            Console.ReadKey();
+                            break;
+                        }
+
+                        if(VendedorDAL.cadastrarVendedores(v)){
+
+                            Console.WriteLine("Cadastro efetuado com sucesso!!");
+                           
 
 
+                        }else{
+                            Console.WriteLine("CPF Duplicado, cadastro inválido!");
+                            Console.WriteLine("Pressione algum botao para voltar ao menu");
+                            Console.ReadKey();
+                            break;
+                        }
+
+                        Console.WriteLine("Pressione algum botao para voltar ao menu");
+                        Console.ReadKey();
+                        break;
+
+                    case "4":
+                        Console.WriteLine("Você selecionou a opção Listar Clientes");
+
+                        foreach (Vendedor vender  in VendedorDAL.TrazendoVendedores())
+                        {
+                            Console.WriteLine("Os nomes dos vendedores: " + vender.nome);
+                            Console.WriteLine("O CPF dos vendedores: " + vender.cpf);
+
+                        }
+                        Console.WriteLine("Pressione algum botao para voltar ao menu");
+                        Console.ReadKey();
+                        break;
+
+                    case "5":
+                        p = new Produto();
+                        Console.WriteLine("Você selecionou a opção Cadastrar Produtos");
+                        Console.WriteLine("Digite o nome do Produto!");
+                        p.nome = Console.ReadLine();
+                        Console.WriteLine("Digite o preço do Produto!");
+                        p.preco = double.Parse(Console.ReadLine());
+                        Console.WriteLine("Digite a quantidade do Produto!");
+                        p.quantidade = int.Parse(Console.ReadLine());
 
 
                         break;

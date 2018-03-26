@@ -23,14 +23,14 @@ namespace ExercicioOO.DAL
 
             foreach (Cliente clienteCadastrado in clientes)
             {
-                if (!clienteCadastrado.cpf.Equals(c.cpf))
+                if (clienteCadastrado.cpf.Equals(c.cpf))
                 {
-                    clientes.Add(c);
-                    return true;
+                    return false;
                 }
             }
 
-            return false;
+            clientes.Add(c);
+            return true;
 
         }
 
