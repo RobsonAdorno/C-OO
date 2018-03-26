@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{9663907D-9DDF-4C4C-9AC3-1F2BFF41C1C3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ExercicioOO/DAL/ClienteDAO.cs">
+    <Files>
+      <File FileName="ExercicioOO/View/Program.cs" Line="11" Column="13" />
+      <File FileName="ExercicioOO/Model/Cliente.cs" Line="13" Column="16" />
+      <File FileName="ExercicioOO/DAL/ClienteDAO.cs" Line="8" Column="28" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../ExercicioOO/DAL/ClienteDAO.cs" line="17" offsetX="488" offsetY="240" expression="Cliente" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.ItemProperties.ExercicioOO PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

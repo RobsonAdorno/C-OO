@@ -1,0 +1,11 @@
+/Users/robson-macbook/Projects/ExercicioOO/ExercicioOO/bin/Debug/netcoreapp2.0/ExercicioOO.deps.json
+/Users/robson-macbook/Projects/ExercicioOO/ExercicioOO/bin/Debug/netcoreapp2.0/ExercicioOO.runtimeconfig.json
+/Users/robson-macbook/Projects/ExercicioOO/ExercicioOO/bin/Debug/netcoreapp2.0/ExercicioOO.runtimeconfig.dev.json
+/Users/robson-macbook/Projects/ExercicioOO/ExercicioOO/bin/Debug/netcoreapp2.0/ExercicioOO.dll
+/Users/robson-macbook/Projects/ExercicioOO/ExercicioOO/bin/Debug/netcoreapp2.0/ExercicioOO.pdb
+/Users/robson-macbook/Projects/ExercicioOO/ExercicioOO/obj/Debug/netcoreapp2.0/ExercicioOO.csprojResolveAssemblyReference.cache
+/Users/robson-macbook/Projects/ExercicioOO/ExercicioOO/obj/Debug/netcoreapp2.0/ExercicioOO.csproj.CoreCompileInputs.cache
+/Users/robson-macbook/Projects/ExercicioOO/ExercicioOO/obj/Debug/netcoreapp2.0/ExercicioOO.AssemblyInfoInputs.cache
+/Users/robson-macbook/Projects/ExercicioOO/ExercicioOO/obj/Debug/netcoreapp2.0/ExercicioOO.AssemblyInfo.cs
+/Users/robson-macbook/Projects/ExercicioOO/ExercicioOO/obj/Debug/netcoreapp2.0/ExercicioOO.dll
+/Users/robson-macbook/Projects/ExercicioOO/ExercicioOO/obj/Debug/netcoreapp2.0/ExercicioOO.pdb
