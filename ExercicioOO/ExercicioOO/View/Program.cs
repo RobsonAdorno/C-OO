@@ -1,6 +1,7 @@
 ﻿using System;
 using ExercicioOO.Model;
 using ExercicioOO.DAL;
+using ExercicioOO.Beans;
 
 namespace ExercicioOO
 {
@@ -47,7 +48,15 @@ namespace ExercicioOO
                         c.nome = Console.ReadLine();
                         Console.WriteLine("Digite o CPF do Cliente");
                         c.cpf = Console.ReadLine();
-                        ClienteDAO.CadastrarCliente(c);
+                        if (ValidateCPF.ValidandoCPF(c.cpf) == false){
+                            Console.WriteLine("CPF INVÁLIDO");
+                            break;
+                        } 
+                        if(ClienteDAO.CadastrarCliente(c) == false){
+                            Console.WriteLine("Não foi possível efetuar o cadastro, CPF já existente!");
+                            break;
+                        }
+                        Console.WriteLine("Cadastro Efetuado com sucesso!!");
                         Console.WriteLine("Pressione algum botao para voltar ao menu");
                         Console.ReadKey();
                         break;
@@ -61,6 +70,13 @@ namespace ExercicioOO
                         }
                         Console.WriteLine("Pressione algum botao para voltar ao menu");
                         Console.ReadKey();
+                        break;
+
+                    case "3":
+
+
+
+
                         break;
 
                     case "0":

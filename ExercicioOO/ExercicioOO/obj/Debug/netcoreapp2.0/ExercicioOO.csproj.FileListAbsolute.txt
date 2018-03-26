@@ -9,3 +9,14 @@
 /Users/robson-macbook/Projects/ExercicioOO/ExercicioOO/obj/Debug/netcoreapp2.0/ExercicioOO.AssemblyInfo.cs
 /Users/robson-macbook/Projects/ExercicioOO/ExercicioOO/obj/Debug/netcoreapp2.0/ExercicioOO.dll
 /Users/robson-macbook/Projects/ExercicioOO/ExercicioOO/obj/Debug/netcoreapp2.0/ExercicioOO.pdb
+/Users/rferreira/Documents/C-OO/ExercicioOO/ExercicioOO/bin/Debug/netcoreapp2.0/ExercicioOO.deps.json
+/Users/rferreira/Documents/C-OO/ExercicioOO/ExercicioOO/bin/Debug/netcoreapp2.0/ExercicioOO.runtimeconfig.json
+/Users/rferreira/Documents/C-OO/ExercicioOO/ExercicioOO/bin/Debug/netcoreapp2.0/ExercicioOO.runtimeconfig.dev.json
+/Users/rferreira/Documents/C-OO/ExercicioOO/ExercicioOO/bin/Debug/netcoreapp2.0/ExercicioOO.dll
+/Users/rferreira/Documents/C-OO/ExercicioOO/ExercicioOO/bin/Debug/netcoreapp2.0/ExercicioOO.pdb
+/Users/rferreira/Documents/C-OO/ExercicioOO/ExercicioOO/obj/Debug/netcoreapp2.0/ExercicioOO.csprojResolveAssemblyReference.cache
+/Users/rferreira/Documents/C-OO/ExercicioOO/ExercicioOO/obj/Debug/netcoreapp2.0/ExercicioOO.csproj.CoreCompileInputs.cache
+/Users/rferreira/Documents/C-OO/ExercicioOO/ExercicioOO/obj/Debug/netcoreapp2.0/ExercicioOO.AssemblyInfoInputs.cache
+/Users/rferreira/Documents/C-OO/ExercicioOO/ExercicioOO/obj/Debug/netcoreapp2.0/ExercicioOO.AssemblyInfo.cs
+/Users/rferreira/Documents/C-OO/ExercicioOO/ExercicioOO/obj/Debug/netcoreapp2.0/ExercicioOO.dll
+/Users/rferreira/Documents/C-OO/ExercicioOO/ExercicioOO/obj/Debug/netcoreapp2.0/ExercicioOO.pdb

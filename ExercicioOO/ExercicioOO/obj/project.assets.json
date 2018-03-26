@@ -664,23 +664,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/robson-macbook/.nuget/packages/": {},
+    "/Users/rferreira/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/robson-macbook/Projects/ExercicioOO/ExercicioOO/ExercicioOO.csproj",
+      "projectUniqueName": "/Users/rferreira/Documents/C-OO/ExercicioOO/ExercicioOO/ExercicioOO.csproj",
       "projectName": "ExercicioOO",
-      "projectPath": "/Users/robson-macbook/Projects/ExercicioOO/ExercicioOO/ExercicioOO.csproj",
-      "packagesPath": "/Users/robson-macbook/.nuget/packages/",
-      "outputPath": "/Users/robson-macbook/Projects/ExercicioOO/ExercicioOO/obj",
+      "projectPath": "/Users/rferreira/Documents/C-OO/ExercicioOO/ExercicioOO/ExercicioOO.csproj",
+      "packagesPath": "/Users/rferreira/.nuget/packages/",
+      "outputPath": "/Users/rferreira/Documents/C-OO/ExercicioOO/ExercicioOO/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/robson-macbook/.config/NuGet/NuGet.Config"
+        "/Users/rferreira/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"

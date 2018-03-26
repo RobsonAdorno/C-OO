@@ -19,11 +19,18 @@ namespace ExercicioOO.DAL
             return clientes;
         }
 
-        public static List<Cliente> CadastrarCliente(Cliente c){
+        public static bool CadastrarCliente(Cliente c){
 
-            clientes.Add(c);
+            foreach (Cliente clienteCadastrado in clientes)
+            {
+                if (!clienteCadastrado.cpf.Equals(c.cpf))
+                {
+                    clientes.Add(c);
+                    return true;
+                }
+            }
 
-            return clientes;
+            return false;
 
         }
 

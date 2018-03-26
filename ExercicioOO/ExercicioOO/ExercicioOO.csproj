@@ -10,5 +10,6 @@
     <Folder Include="Model\" />
     <Folder Include="DAL\" />
     <Folder Include="Propers\" />
+    <Folder Include="Beans\" />
   </ItemGroup>
 </Project>
